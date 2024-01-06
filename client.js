@@ -44,7 +44,7 @@ async function sendMsg(useLocal) {
                     "action": "notify",
                     "name": "Aaron Rider",
                     "nfytext": "Test Notification from Client",
-                    "timestamp": new Date().getTime().toString(),
+                    "timestamp": new Date().getTime().toString(), // note: all values must be strings
                     "title": "Sample Notification",
                 },
                 "android": {
